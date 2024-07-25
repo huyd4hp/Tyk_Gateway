@@ -25,21 +25,6 @@ Your Tyk Gateway is found at http://localhost:8080
 Press Enter to exit
 ```
 
-### Running the Enterprise Developer Portal:
-
-#### Prerequisites - a license
-
-If you have a license for the portal add it as an env var `PORTAL_LICENSEKEY` in `.env`.
-If you don't, please contact support@tyk.io
-**Note:** The bootstrap process will fail if the licence is not present.
-
-The quick start includes the latest Enterprise Developer Portal or any version defined in `.env` with `PORTAL_VERSION` env var.
-
-Please visit: [http://localhost:3001](http://localhost:3001)
-Login with the credentials in `./confs/tyk_portal.env`
-
-</br>
-
 ### Enable TLS in Tyk Gateway and Tyk Dashboard
 
 If you need, generate self-signed certificates for Dashboard and Gateway, e.g.
